@@ -1,0 +1,224 @@
+/* body{
+  display: block;
+  background-image: url(images/3.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+} */
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  position: relative;
+  box-sizing: inherit;
+}
+.bg_img{
+  
+}
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  vertical-align: center;
+}
+
+.nav-logo-center{
+  position: relative; 
+  left: 50%; 
+  transform: translatex(-50%); 
+  padding-top: 10px;
+}
+.nav-items-center{
+  position: relative;
+  left: 40%;
+  transform: translatex(-50%); 
+  padding-top:130px;
+}
+li{
+  padding: 20px;
+  font-size: 20px;
+}
+li>a{
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+}
+li>a:hover{
+  color:yellow;
+}
+.hotel-name{
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  padding-top: 20px;
+  left: 35%;
+}
+.hotel-info{
+  color: aqua;
+  font-size: 20px;
+  position: relative;
+  padding-top: 10px;
+  left: 37%;
+}
+.enquiry-button{
+  font-weight: bold;
+  background-color: yellow;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  left: 37%;
+}
+.enquiry-button:hover{
+  background-color: chartreuse;
+}
+.aboutus{
+  background-color:rgb(216, 211, 211);
+}
+.aboutus-heading{
+  text-align: center;
+  position: relative;
+  padding-top: 27%;
+}
+.aboutus-text{  
+  text-align: center;
+  position: relative;
+}
+#amneties{
+  background-color: #c3c0c0
+}
+.amneties-heading , .amneties-text{
+  text-align: center;
+}
+.no-anchor-card{
+  padding-left: 20px;
+  margin-left: 5px;
+}
+
+.images123{
+  opacity: 0.8;
+  display: block;
+  border: 5px solid gray;
+  box-shadow: 2mm;
+}
+.colm-with-bg{
+  background-image: url('images/luxury14.jfif');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.button-enquiry{
+  background-color: yellow;
+}
+.but-class{
+  display: block;
+  justify-self: center;
+  align-items: center;
+}
+
+.parallex{
+  margin-top: 50px;
+  border: 1px dotted #c3c0c0;
+}
+
+.gallary{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#gallary{
+  margin-bottom: 120px;
+}
+
+.heading ,.text{
+  position: relative;
+  left: 45%;
+}
+
+#packages{
+  background-color: dimgrey;
+  margin-bottom: 100px;
+}
+.bg-img-1{
+  background-image: url('images/bedroom-1.jpg');
+  height: 225px;
+  width: 225px;
+}
+.bg-img-2{
+  background-image: url('images/bedroom-2.jpg');
+  height: 225px;
+  width: 225px;
+}
+.bg-img-3{
+  background-image: url('images/bedroom-3.jfif');
+  height: 225px;
+  width: 225px;
+}
+.bg-img-4{
+  background-image: url('images/bedroom-4.jpg');
+  height: 225px;
+  width: 225px;
+}
+
+.price{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  top: 200px;
+}
+
+.form-class{
+  padding: 50px 20px 50px 40px;
+  background-color: aqua;
+}
+.form-title{
+  padding-bottom: 50px;
+}
+.form-class>textarea{
+  padding: 10px 0px 10px 10px;
+}
+.send-button{
+  display: unset;
+  padding: 5px 20px 5px 20px;
+  background-color: yellow;
+}
+.queries-123{
+  text-align: center;
+  padding-top: 120px;
+  margin-left: 100px;
+}
+.booking-button{
+  margin-top: 30px;
+  box-shadow: none;
+  border: none;
+  background-color: yellow;
+  padding: 5px 10px 5px 10px;
+}
+#booking{
+  background-color: burlywood;
+  margin-bottom: 100px;
+}
+footer{
+  background-color: violet;  
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footer1{
+  padding-top: 50px;
+}
+.footer-nav>ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.telphone{
+  display: flex;
+  flex-direction: row;
+}
